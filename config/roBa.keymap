@@ -80,7 +80,7 @@
 
         default_layer {
             bindings = <
-&mt ESCAPE Q      &kp W         &kp E         &kp R                      &kp T                                       &kp Y      &kp U  &lt 6 I    &kp O    &kp BACKSPACE
+&mt TAB Q         &kp W         &kp E         &kp R                      &kp T                                       &kp Y      &kp U  &lt 6 I    &kp O    &kp BACKSPACE
 &mt LCTRL A       &kp S         &kp D         &kp F                      &kp G      &msc SCRL_UP        &kp MINUS    &kp H      &kp J  &kp K      &kp L    &kp P
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                      &kp B      &msc SCRL_DOWN      &kp SLASH    &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 ENTER
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mt LANGUAGE_2 LANGUAGE_1  &mkp LCLK  &mkp RCLK           &lt 1 ENTER  &kp SPACE                             &mt LCTRL ENTER
@@ -107,10 +107,10 @@
 
         ARROW {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                                           &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
-&kp ESCAPE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &kp NON_US_BACKSLASH      &kp SQT        &kp LEFT_BRACKET   &kp LEFT      &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &trans          &trans          &trans           &trans        &trans                    &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp DOWN         &trans
-&trans          &trans          &trans          &trans           &trans        &trans                    &kp HOME       &kp END                                                         &trans
+&mt ESCAPE NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                                           &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
+&kp ESCAPE           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &kp NON_US_BACKSLASH      &kp SQT        &kp LEFT_BRACKET   &kp LEFT      &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT       &trans          &trans          &trans           &trans        &trans                    &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp DOWN         &trans
+&trans               &trans          &trans          &trans           &trans        &trans                    &kp HOME       &kp END                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
