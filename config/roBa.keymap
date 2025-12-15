@@ -39,8 +39,8 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
+        ctrlA {
+            bindings = <&kp LC(A)>;
             key-positions = <11 10>;
         };
 
@@ -52,6 +52,11 @@
         eq {
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
     };
 
@@ -107,10 +112,10 @@
 
         ARROW {
             bindings = <
-&mt ESCAPE NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp NUMBER_5                                           &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
-&kp ESCAPE           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END       &kp NON_US_BACKSLASH      &kp SQT        &kp LEFT_BRACKET   &kp LEFT      &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT       &trans          &trans          &trans           &trans        &trans                    &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp DOWN         &trans
-&trans               &trans          &trans          &trans           &trans        &trans                    &kp HOME       &kp END                                                         &trans
+&mt ESCAPE NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
+&kp ESCAPE           &kp LEFT_ARROW  &kp UP_ARROW  &kp GRAVE     &kp MINUS     &kp NON_US_BACKSLASH      &kp SQT        &kp LEFT_BRACKET   &kp LEFT      &kp UP_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT       &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT     &kp EQUAL     &kp SLASH                 &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp RIGHT        &trans
+&trans               &trans          &kp DOWN      &trans        &trans        &trans                    &kp HOME       &kp END                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
