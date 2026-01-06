@@ -114,8 +114,8 @@
             bindings = <
 &mt ESCAPE NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                           &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0
 &kp ESCAPE           &kp LEFT_ARROW  &kp UP_ARROW  &kp GRAVE     &kp MINUS     &kp NON_US_BACKSLASH      &kp SQT        &kp LEFT_BRACKET   &kp LEFT      &kp UP_ARROW  &kp RIGHT_ARROW  &trans
-&kp Z                &kp X           &kp UP_ARROW  &kp RIGHT     &kp EQUAL     &kp SLASH                 &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp RIGHT        &trans
-&kp LEFT_SHIFT       &trans          &kp DOWN      &trans        &trans        &trans                    &kp HOME       &kp END                                                         &trans
+&kp LEFT_SHIFT       &kp X           &kp UP_ARROW  &kp RIGHT     &kp EQUAL     &kp SLASH                 &kp SEMICOLON  &kp RIGHT_BRACKET  &kp GRAVE     &kp DOWN      &kp RIGHT        &trans
+&kp LEFT_CONTROL     &trans          &kp DOWN      &trans        &trans        &trans                    &kp HOME       &kp END                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
