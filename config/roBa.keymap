@@ -58,6 +58,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        Capitalz {
+            bindings = <&kp LS(Z)>;
+            key-positions = <22 23>;
+        };
     };
 
     macros {
